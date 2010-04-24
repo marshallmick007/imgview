@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>img viewer</title>
+	<link rel="stylesheet" href="res/style.css" type="text/css" />
+	<script src="res/jquery.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body id="index" class="home">
+	<header>
+	<form action="" method="get" accept-charset="utf-8">
+		<label for="url">URL:</label><input type="text" name="url" value="" id="url">
+		<input id="fetch" type="button" value="Fetch Image!">
+	</form>
+	</header>
+	<div id="img">
+		<img id="img-1" src="res/blank.png" />
+	</div>
+	
+	<footer>imgview written by Marshall Mickelson</footer>
+	
+	<script type="text/javascript" charset="utf-8">
+		$('#fetch').click( function()
+			{
+				$('#img').show('fast'); 
+				
+				$('#img-1').attr("src", $('#url').attr('value')).show();
+			});
+	</script>
+	
+</body>
+</html>

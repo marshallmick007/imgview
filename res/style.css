@@ -1,0 +1,42 @@
+body {
+	font-family: "Helvetica";
+	margin: 0px;
+}
+
+#url {
+	width: 600px;
+	font-size: 14px;
+}
+
+label {
+	padding: 5px;
+	padding-right: 10px;
+}
+
+
+#img {
+	text-align: center;
+	display: none;
+	margin: auto auto;
+}
+
+#img-1 {
+	border: 1px dotted #444; 
+	display: none;
+}
+
+
+header {
+	background-color: #F4FFD4;
+	padding: 5px;
+	width: 100%;
+}
+
+footer { 
+	position: fixed; 
+	bottom: 0px; 
+	background-color: #F4FFD4;
+	padding: 5px;
+	height: 21px;
+	width: 100%;
+}
